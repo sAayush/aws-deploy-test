@@ -3,7 +3,7 @@ var express = require("express")
 var app = express()
 
 app.get("/", function (req, res) {
-  res.send("Simple Web Application is UP")
+  res.send("Simple Web Application is running!")
 })
 
 app.listen(8081, function () {
